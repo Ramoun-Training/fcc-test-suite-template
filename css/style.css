@@ -1,6 +1,15 @@
-#navbar {
+#nav-bar {
     position: fixed;
     top: 0;
 }
 
-@media screen and (max-width: 400px) {}
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        width: 100px;
+    }
+}
